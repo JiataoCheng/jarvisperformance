@@ -118,7 +118,7 @@ figure {
 }
 @media screen and (max-width: 768px) {
   .fh5co-cover {
-    heifght: inherit;
+    height: inherit;
     padding: 3em 0;
   }
 }
@@ -140,10 +140,10 @@ figure {
   }
 }
 .fh5co-cover .desc {
-  top: 50%;
+  top: 25%;
   position: absolute;
   width: 100%;
-  margin-top: -100px;
+  /* margin-top: -100px; */
   z-index: 2;
   color: #fff;
 }
@@ -483,7 +483,7 @@ figure {
 #fh5co-team-section,
 #fh5co-blog-section,
 #fh5co-contact {
-  padding: 7em 0;
+  padding: 3em 0;
 }
 @media screen and (max-width: 768px) {
   #fh5co-programs-section,
@@ -1094,14 +1094,14 @@ figure {
   transition: 0.3s;
 }
 .btn.btn-primary {
-  background: #4CB648;
+  background: #d82026;
   color: #fff;
   border: none !important;
   border: 2px solid transparent !important;
 }
 .btn.btn-primary:hover, .btn.btn-primary:active, .btn.btn-primary:focus {
   box-shadow: none;
-  background: #4CB648;
+  background: #d82026;
   color: #fff !important;
 }
 .btn:hover, .btn:active, .btn:focus {
